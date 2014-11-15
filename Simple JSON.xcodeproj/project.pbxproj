@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC80E8991A173FFC00B7D860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC80E8981A173FFC00B7D860 /* AppDelegate.swift */; };
+		DC80E89B1A173FFC00B7D860 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC80E89A1A173FFC00B7D860 /* MasterViewController.swift */; };
+		DC80E89D1A173FFC00B7D860 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC80E89C1A173FFC00B7D860 /* DetailViewController.swift */; };
+		DC80E8A01A173FFC00B7D860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC80E89E1A173FFC00B7D860 /* Main.storyboard */; };
+		DC80E8A21A173FFC00B7D860 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC80E8A11A173FFC00B7D860 /* Images.xcassets */; };
+		DC80E8A51A173FFC00B7D860 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC80E8A31A173FFC00B7D860 /* LaunchScreen.xib */; };
+		DC80E8B11A173FFC00B7D860 /* Simple_JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC80E8B01A173FFC00B7D860 /* Simple_JSONTests.swift */; };
+		DC80E8BD1A17407200B7D860 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC80E8BA1A17407200B7D860 /* Post.swift */; };
+		DC80E8BE1A17407200B7D860 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC80E8BB1A17407200B7D860 /* PostService.swift */; };
+		DC80E8BF1A17407200B7D860 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC80E8BC1A17407200B7D860 /* Settings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC80E8AB1A173FFC00B7D860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC80E88B1A173FFC00B7D860 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC80E8921A173FFC00B7D860;
+			remoteInfo = "Simple JSON";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC80E8931A173FFC00B7D860 /* Simple JSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple JSON.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC80E8971A173FFC00B7D860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC80E8981A173FFC00B7D860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC80E89A1A173FFC00B7D860 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		DC80E89C1A173FFC00B7D860 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DC80E89F1A173FFC00B7D860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC80E8A11A173FFC00B7D860 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC80E8A41A173FFC00B7D860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DC80E8AA1A173FFC00B7D860 /* Simple JSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple JSONTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC80E8AF1A173FFC00B7D860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC80E8B01A173FFC00B7D860 /* Simple_JSONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_JSONTests.swift; sourceTree = "<group>"; };
+		DC80E8BA1A17407200B7D860 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		DC80E8BB1A17407200B7D860 /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		DC80E8BC1A17407200B7D860 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC80E8901A173FFC00B7D860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC80E8A71A173FFC00B7D860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC80E88A1A173FFC00B7D860 = {
+			isa = PBXGroup;
+			children = (
+				DC80E8951A173FFC00B7D860 /* Simple JSON */,
+				DC80E8AD1A173FFC00B7D860 /* Simple JSONTests */,
+				DC80E8941A173FFC00B7D860 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC80E8941A173FFC00B7D860 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC80E8931A173FFC00B7D860 /* Simple JSON.app */,
+				DC80E8AA1A173FFC00B7D860 /* Simple JSONTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC80E8951A173FFC00B7D860 /* Simple JSON */ = {
+			isa = PBXGroup;
+			children = (
+				DC80E8BA1A17407200B7D860 /* Post.swift */,
+				DC80E8BB1A17407200B7D860 /* PostService.swift */,
+				DC80E8BC1A17407200B7D860 /* Settings.swift */,
+				DC80E8981A173FFC00B7D860 /* AppDelegate.swift */,
+				DC80E89A1A173FFC00B7D860 /* MasterViewController.swift */,
+				DC80E89C1A173FFC00B7D860 /* DetailViewController.swift */,
+				DC80E89E1A173FFC00B7D860 /* Main.storyboard */,
+				DC80E8A11A173FFC00B7D860 /* Images.xcassets */,
+				DC80E8A31A173FFC00B7D860 /* LaunchScreen.xib */,
+				DC80E8961A173FFC00B7D860 /* Supporting Files */,
+			);
+			path = "Simple JSON";
+			sourceTree = "<group>";
+		};
+		DC80E8961A173FFC00B7D860 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC80E8971A173FFC00B7D860 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC80E8AD1A173FFC00B7D860 /* Simple JSONTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC80E8B01A173FFC00B7D860 /* Simple_JSONTests.swift */,
+				DC80E8AE1A173FFC00B7D860 /* Supporting Files */,
+			);
+			path = "Simple JSONTests";
+			sourceTree = "<group>";
+		};
+		DC80E8AE1A173FFC00B7D860 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC80E8AF1A173FFC00B7D860 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC80E8921A173FFC00B7D860 /* Simple JSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC80E8B41A173FFC00B7D860 /* Build configuration list for PBXNativeTarget "Simple JSON" */;
+			buildPhases = (
+				DC80E88F1A173FFC00B7D860 /* Sources */,
+				DC80E8901A173FFC00B7D860 /* Frameworks */,
+				DC80E8911A173FFC00B7D860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple JSON";
+			productName = "Simple JSON";
+			productReference = DC80E8931A173FFC00B7D860 /* Simple JSON.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC80E8A91A173FFC00B7D860 /* Simple JSONTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC80E8B71A173FFC00B7D860 /* Build configuration list for PBXNativeTarget "Simple JSONTests" */;
+			buildPhases = (
+				DC80E8A61A173FFC00B7D860 /* Sources */,
+				DC80E8A71A173FFC00B7D860 /* Frameworks */,
+				DC80E8A81A173FFC00B7D860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC80E8AC1A173FFC00B7D860 /* PBXTargetDependency */,
+			);
+			name = "Simple JSONTests";
+			productName = "Simple JSONTests";
+			productReference = DC80E8AA1A173FFC00B7D860 /* Simple JSONTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC80E88B1A173FFC00B7D860 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Techulus;
+				TargetAttributes = {
+					DC80E8921A173FFC00B7D860 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					DC80E8A91A173FFC00B7D860 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = DC80E8921A173FFC00B7D860;
+					};
+				};
+			};
+			buildConfigurationList = DC80E88E1A173FFC00B7D860 /* Build configuration list for PBXProject "Simple JSON" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC80E88A1A173FFC00B7D860;
+			productRefGroup = DC80E8941A173FFC00B7D860 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC80E8921A173FFC00B7D860 /* Simple JSON */,
+				DC80E8A91A173FFC00B7D860 /* Simple JSONTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC80E8911A173FFC00B7D860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC80E8A01A173FFC00B7D860 /* Main.storyboard in Resources */,
+				DC80E8A51A173FFC00B7D860 /* LaunchScreen.xib in Resources */,
+				DC80E8A21A173FFC00B7D860 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC80E8A81A173FFC00B7D860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC80E88F1A173FFC00B7D860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC80E8BF1A17407200B7D860 /* Settings.swift in Sources */,
+				DC80E8BE1A17407200B7D860 /* PostService.swift in Sources */,
+				DC80E89D1A173FFC00B7D860 /* DetailViewController.swift in Sources */,
+				DC80E89B1A173FFC00B7D860 /* MasterViewController.swift in Sources */,
+				DC80E8991A173FFC00B7D860 /* AppDelegate.swift in Sources */,
+				DC80E8BD1A17407200B7D860 /* Post.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC80E8A61A173FFC00B7D860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC80E8B11A173FFC00B7D860 /* Simple_JSONTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC80E8AC1A173FFC00B7D860 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC80E8921A173FFC00B7D860 /* Simple JSON */;
+			targetProxy = DC80E8AB1A173FFC00B7D860 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC80E89E1A173FFC00B7D860 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC80E89F1A173FFC00B7D860 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC80E8A31A173FFC00B7D860 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC80E8A41A173FFC00B7D860 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC80E8B21A173FFC00B7D860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC80E8B31A173FFC00B7D860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC80E8B51A173FFC00B7D860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Simple JSON/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC80E8B61A173FFC00B7D860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Simple JSON/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC80E8B81A173FFC00B7D860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Simple JSONTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple JSON.app/Simple JSON";
+			};
+			name = Debug;
+		};
+		DC80E8B91A173FFC00B7D860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Simple JSONTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple JSON.app/Simple JSON";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC80E88E1A173FFC00B7D860 /* Build configuration list for PBXProject "Simple JSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC80E8B21A173FFC00B7D860 /* Debug */,
+				DC80E8B31A173FFC00B7D860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC80E8B41A173FFC00B7D860 /* Build configuration list for PBXNativeTarget "Simple JSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC80E8B51A173FFC00B7D860 /* Debug */,
+				DC80E8B61A173FFC00B7D860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC80E8B71A173FFC00B7D860 /* Build configuration list for PBXNativeTarget "Simple JSONTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC80E8B81A173FFC00B7D860 /* Debug */,
+				DC80E8B91A173FFC00B7D860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC80E88B1A173FFC00B7D860 /* Project object */;
+}
