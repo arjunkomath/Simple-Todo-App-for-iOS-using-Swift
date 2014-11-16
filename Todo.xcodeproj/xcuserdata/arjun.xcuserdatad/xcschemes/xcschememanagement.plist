@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Simple JSON.xcscheme</key>
+		<key>Todo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DC80E8921A173FFC00B7D860</key>
+		<key>DC65CA991A16750A00D6D01E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DC80E8A91A173FFC00B7D860</key>
+		<key>DC65CAB01A16750B00D6D01E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

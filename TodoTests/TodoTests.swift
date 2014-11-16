@@ -1,15 +1,15 @@
 //
-//  Simple_JSONTests.swift
-//  Simple JSONTests
+//  TodoTests.swift
+//  TodoTests
 //
-//  Created by Arjun on 15/11/14.
+//  Created by Arjun on 14/11/14.
 //  Copyright (c) 2014 Techulus. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class Simple_JSONTests: XCTestCase {
+class TodoTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

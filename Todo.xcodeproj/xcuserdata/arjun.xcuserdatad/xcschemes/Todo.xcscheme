@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DC80E8921A173FFC00B7D860"
-               BuildableName = "Simple JSON.app"
-               BlueprintName = "Simple JSON"
-               ReferencedContainer = "container:Simple JSON.xcodeproj">
+               BlueprintIdentifier = "DC65CA991A16750A00D6D01E"
+               BuildableName = "Todo.app"
+               BlueprintName = "Todo"
+               ReferencedContainer = "container:Todo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DC80E8A91A173FFC00B7D860"
-               BuildableName = "Simple JSONTests.xctest"
-               BlueprintName = "Simple JSONTests"
-               ReferencedContainer = "container:Simple JSON.xcodeproj">
+               BlueprintIdentifier = "DC65CAB01A16750B00D6D01E"
+               BuildableName = "TodoTests.xctest"
+               BlueprintName = "TodoTests"
+               ReferencedContainer = "container:Todo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DC80E8A91A173FFC00B7D860"
-               BuildableName = "Simple JSONTests.xctest"
-               BlueprintName = "Simple JSONTests"
-               ReferencedContainer = "container:Simple JSON.xcodeproj">
+               BlueprintIdentifier = "DC65CAB01A16750B00D6D01E"
+               BuildableName = "TodoTests.xctest"
+               BlueprintName = "TodoTests"
+               ReferencedContainer = "container:Todo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC80E8921A173FFC00B7D860"
-            BuildableName = "Simple JSON.app"
-            BlueprintName = "Simple JSON"
-            ReferencedContainer = "container:Simple JSON.xcodeproj">
+            BlueprintIdentifier = "DC65CA991A16750A00D6D01E"
+            BuildableName = "Todo.app"
+            BlueprintName = "Todo"
+            ReferencedContainer = "container:Todo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC80E8921A173FFC00B7D860"
-            BuildableName = "Simple JSON.app"
-            BlueprintName = "Simple JSON"
-            ReferencedContainer = "container:Simple JSON.xcodeproj">
+            BlueprintIdentifier = "DC65CA991A16750A00D6D01E"
+            BuildableName = "Todo.app"
+            BlueprintName = "Todo"
+            ReferencedContainer = "container:Todo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC80E8921A173FFC00B7D860"
-            BuildableName = "Simple JSON.app"
-            BlueprintName = "Simple JSON"
-            ReferencedContainer = "container:Simple JSON.xcodeproj">
+            BlueprintIdentifier = "DC65CA991A16750A00D6D01E"
+            BuildableName = "Todo.app"
+            BlueprintName = "Todo"
+            ReferencedContainer = "container:Todo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
